@@ -19,7 +19,7 @@ import suryajiarti from "../assets/Aarti/SuryajiArti.jpg";
 import vshnuarti from "../assets/Aarti/VshnuArti.jpg";
 import contactbanner from "../assets/Contact/ContactBanner.jpg";
 import pujari1 from "../assets/Contact/Pujari1.jpg";
-import pujari2 from "../assets/Contact/Pujari2.jpg";
+import pujari2 from "../assets/Contact/pujari2.jpg";
 
 
 import samiti from "../assets/samiti/Samitibanner.jpg";
