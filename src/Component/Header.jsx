@@ -2,7 +2,7 @@ import React from 'react';
 import { useState, modelRef } from "react";
 import { Link, NavLink, useNavigate } from "react-router-dom";
 import { Search, AlignLeft, X } from "lucide-react";
-import {Navigation, logo} from "../../../Frontend/src/Constant/header"
+import {Navigation, logo} from "../Constant/header"
 import ButtonWrapper from './Button';
 
 
