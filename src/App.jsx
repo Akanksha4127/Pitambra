@@ -7,6 +7,7 @@ import MandirPhoto from "./Pages/MandirPhoto";
 import MandirSamiti from "./Pages/MandirSamiti";
 import Aarti from "./Pages/Aarti";
 import Contact from "./Pages/Contact";
+import Index from "./Pages/E-Puja";
 import viteLogo from "/vite.svg";
 import { Route, Routes } from "react-router-dom";
 
@@ -21,6 +22,7 @@ function App() {
         <Route path="/mandirsamiti" element={<MandirSamiti />} />
         <Route path="/aarti" element={<Aarti />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/index" element={<Index />} />
       </Routes>
       <Footer />
     </div>

@@ -95,7 +95,7 @@ function Header() {
         </div>
         <div className="LogIn-E-Puja flex ">
           {/* <ButtonWrapper>Login</ButtonWrapper> */}
-          <ButtonWrapper>E-Puja</ButtonWrapper>
+          <Link to="/index">E-puja</Link>
         </div>
       </div>
     
