@@ -7,7 +7,7 @@ import nirman1 from "../assets/MandirKiPhoto/Nirman1.jpg";
 import nirman2 from "../assets/MandirKiPhoto/Nirman2.jpg";
 import nirman3 from "../assets/MandirKiPhoto/Nirman3.mp4";
 import nirman4 from "../assets/MandirKiPhoto/Nirman4.jpg";
-import mandirkaryakarambanner from "../assets/MandirKaryakaram/Mandirkaryakarambanner.jpg"
+import mandirkaryakarambanner from "../assets/MandirKaryakaram/MandirKaryakarambanner.jpg";
 import karyakaram1 from "../assets/MandirKaryakaram/Karyakaram1.jpg"
 import karyakaram2 from "../assets/MandirKaryakaram/Karyakaram2.jpg";
 import aartibanner from '../assets/Aarti/AartiBanner1.jpg'
