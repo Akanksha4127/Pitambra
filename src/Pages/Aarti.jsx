@@ -8,7 +8,7 @@ function Aarti() {
         <img src={ArtiBanner} className=" w-full lg:h-[70vh]" />
       </div>
 
-      <section className="AArti-Gallary m-4">
+      <section className="AArti-Gallary m-4 p-6">
         <div className="img-gallary lg:flex lg:flex-wrap items-center justify-center gap-4 mt-6">
           <img
             src={GaneshArti}

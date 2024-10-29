@@ -26,7 +26,7 @@ function MandirSamiti() {
           <h2>अजीत स्वामी</h2>
           <p>अध्यक्ष अखिल भारतीय मंदिर परिषद</p>
         </div>
-        <div className="card1 border bg-yellow-500 text-red-700 p-4 text-center h-44 w-[40vw] shadow-lg">
+        <div className="card1 border bg-yellow-500 text-red-700 p-4 text-center h-44 lg:w-[40vw] shadow-lg">
           <h1>मार्गदर्शक एवं प्रमुख सलाहकार</h1>
           <h2>
             डॉ. चन्द्रशेखर रॉय, श्री तेजदार सिंगरिया, डॉ. सुरेश आनंद, श्री पिंकी
@@ -35,7 +35,7 @@ function MandirSamiti() {
             तिवारी, श्री राजेश भारद्वाज, श्री अनिल शर्मा.
           </h2>
         </div>
-        <div className="card1 border bg-yellow-500 text-red-700 p-4 text-center h-44 w-[40vw] shadow-lg">
+        <div className="card1 border bg-yellow-500 text-red-700 p-4 text-center lg:h-44 h-fit lg:w-[40vw] shadow-lg">
           <h1>मंदिर संचालन समिति</h1>
           <h2>
             पंडित रविकांत भारद्वाज, पंडित प्रवीण शर्मा, श्री संजय अग्रवाल, श्री

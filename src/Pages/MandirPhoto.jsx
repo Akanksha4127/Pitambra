@@ -68,7 +68,7 @@ function MandirPhoto() {
           <img
             src={Dharmic}
             alt=""
-            className="lg:w-[28vw] drop-shadow-md hover:scale-105 transition duration-500 ease-linear grayscale hover:grayscale-0"
+            className="lg:w-[28vw] w-[98vw] drop-shadow-md hover:scale-105 transition duration-500 ease-linear grayscale hover:grayscale-0"
           />
         </div>
       </section>
@@ -78,7 +78,7 @@ function MandirPhoto() {
           <img
             src={NarayanMandir}
             alt=""
-            className="lg:w-[28vw] h-60 drop-shadow-md hover:scale-105 transition duration-500 ease-linear grayscale hover:grayscale-0"
+            className="lg:w-[28vw] h-60 w-[98vw] drop-shadow-md hover:scale-105 transition duration-500 ease-linear grayscale hover:grayscale-0"
           />
         </div>
         <div className="aboutImg lg:w-[40vw] lg:-mt-20">

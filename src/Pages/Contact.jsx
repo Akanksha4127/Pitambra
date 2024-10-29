@@ -53,7 +53,7 @@ function Contact() {
   const PujariProfile = () => {
     return (
       <div>
-        <div className=" m-6 lg:flex lg:mx-10  mt-2 gap-60  justify-center items-center  text-sm text-justify ">
+        <div className=" m-6 lg:flex lg:mx-10  mt-2 gap-60  justify-center items-center  text-sm ">
           <PujariCard
             Photo={Pujari1}
             Heading={"मुख्य पुजारी"}
@@ -82,7 +82,7 @@ function Contact() {
         <PujariProfile />
       </section>
 
-      <div className="text-black lg:flex p-4 justify-center mb-6 w-full h-fit font-serif  bg-[#F9F6EE] ">
+      <div className="text-black lg:flex p-4 justify-center mb-6 w-full h-fit font-serif  ">
         <section className="ContactDetails px-4 py-4 lg:w-1/2  flex-col gap-10  laptop:m-4 rounded-lg border-black bg-orange-700 text-white text-opacity-60 shadow-2xl ">
           <h1 className="text-center m-10 text-2xl font-semibold">पता :</h1>
           <div className="Address items-center m-6 flex gap-2">
@@ -155,7 +155,7 @@ function Contact() {
                 </label>
                 <input
                   type="email"
-                  className=" border-l-2 border-b-2 backdrop-blur-xl border-gray-900/30 txt-light-brown text-sm rounded-lg block w-full p-2.5 dark:placeholder-gray-900 dark:text-black drop-shadow-xl focus:outline-none"
+                  className=" border-l-2 border-b-2 backdrop-blur-xl border-red-600/30 txt-light-brown text-sm rounded-lg block w-full p-2.5 dark:placeholder-gray-900 dark:text-black drop-shadow-xl focus:outline-none"
                   placeholder="Jhon doe"
                   name="name"
                   required
@@ -168,7 +168,7 @@ function Contact() {
                 </label>
                 <input
                   type="email"
-                  className=" border-l-2 border-b-2 backdrop-blur-xl border-gray-900/30 txt-light-brown text-sm rounded-lg block w-full p-2.5 dark:placeholder-gray-900 dark:text-black drop-shadow-xl focus:outline-none"
+                  className=" border-l-2 border-b-2 backdrop-blur-xl border-red-600/30 txt-light-brown text-sm rounded-lg block w-full p-2.5 dark:placeholder-gray-900 dark:text-black drop-shadow-xl focus:outline-none"
                   placeholder="user@gmail.com"
                   name="email"
                   required
@@ -182,7 +182,7 @@ function Contact() {
                 </label>
                 <input
                   type="number"
-                  className=" border-l-2 border-b-2 backdrop-blur-xl border-gray-900/30 txt-light-brown text-sm rounded-lg block w-full p-2.5 dark:placeholder-gray-900 dark:text-black drop-shadow-xl focus:outline-none"
+                  className=" border-l-2 border-b-2 backdrop-blur-xl border-red-600/30 txt-light-brown text-sm rounded-lg block w-full p-2.5 dark:placeholder-gray-900 dark:text-black drop-shadow-xl focus:outline-none"
                   placeholder="9955******"
                   name="phone"
                   required
@@ -195,7 +195,7 @@ function Contact() {
                 </label>
                 <input
                   type="text"
-                  className=" border-l-2 border-b-2 backdrop-blur-xl border-gray-900/30 txt-light-brown text-sm rounded-lg block w-full p-2.5 dark:placeholder-gray-900 dark:text-black drop-shadow-xl focus:outline-none"
+                  className=" border-l-2 border-b-2 backdrop-blur-xl border-red-600/30 txt-light-brown text-sm rounded-lg block w-full p-2.5 dark:placeholder-gray-900 dark:text-black drop-shadow-xl focus:outline-none"
                   placeholder="Enter the subject"
                   name="subject"
                   required
@@ -209,7 +209,7 @@ function Contact() {
               </label>
               <textarea
                 type="text"
-                className=" border-l-2 border-b-2 backdrop-blur-xl border-gray-900/30 txt-light-brown text-sm rounded-lg block w-full p-2.5 dark:placeholder-gray-900 dark:text-black drop-shadow-xl focus:outline-none"
+                className=" border-l-2 border-b-2 backdrop-blur-xl border-red-600/30 txt-light-brown text-sm rounded-lg block w-full p-2.5 dark:placeholder-gray-900 dark:text-black drop-shadow-xl focus:outline-none"
                 placeholder="Enter your message here!"
                 name="message"
                 required
@@ -221,7 +221,7 @@ function Contact() {
           <div className="submit-btn flex justify-center m-10">
             <button
               onClick={handleSubmit}
-              className=" bg-amber-900 text-white py-2 px-7 rounded-lg drop-shadow-xl hover:drop-shadow-2xl hover:bg-zinc-700 transition duration-300 hover:scale-105 "
+              className=" bg-orange-500 text-white py-2 px-7 rounded-lg drop-shadow-xl hover:drop-shadow-2xl hover:bg-zinc-700 transition duration-300 hover:scale-105 "
             >
               Submit
             </button>

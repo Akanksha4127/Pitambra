@@ -83,20 +83,22 @@ function Header() {
         <img src={logo} alt="" className="w-16 " />
       </div>
 
-      <div className="Navigation_Container gap-8 hidden lg:flex">
-        {Navigation.map((field) => {
-          return (
-            <div className="hover:scale-105 transition duration-200 ease-in-out text-white">
-              <Link to={field.path}>{field.heading}</Link>
-            </div>
-          );
-        })}
+      
+        <div className="Navigation_Container gap-8 hidden lg:flex">
+          {Navigation.map((field) => {
+            return (
+              <div className="hover:scale-105 transition duration-200 ease-in-out text-white">
+                <Link to={field.path}>{field.heading}</Link>
+              </div>
+            );
+          })}
+        </div>
+        <div className="LogIn-E-Puja flex ">
+          {/* <ButtonWrapper>Login</ButtonWrapper> */}
+          <ButtonWrapper>E-Puja</ButtonWrapper>
+        </div>
       </div>
-      <div className="LogIn-E-Puja flex">
-        <ButtonWrapper>Login</ButtonWrapper>
-        <ButtonWrapper>E-Puja</ButtonWrapper>
-      </div>
-    </div>
+    
   );
 }
 
