@@ -123,7 +123,7 @@ function Index() {
           <Link to="#">My Cart</Link>
         </div>
       </div> */}
-      <div className="button lg:flex  justify-center items-center  gap-10 mt-10">
+      <div className="button lg:flex mx-10 justify-center items-center  gap-10 mt-10">
         <button className="px-4 py-2 border w-96 bg-orange-400">Gods & Goddesses</button>
         <div>
           <button className="px-4 py-2 border w-96 bg-yellow-400">
