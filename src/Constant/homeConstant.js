@@ -21,7 +21,7 @@ import parisar7 from "../assets/HomeImg/Parisarimg7.jpg";
 
 import parisar8 from "../assets/HomeImg/Parisarimg8.jpg";
 
-import parisar9 from "../assets/HomeImg/parisarimg9.jpg";
+import parisar9 from "../assets/HomeImg/Parisarimg9.jpg";
 
 
 
