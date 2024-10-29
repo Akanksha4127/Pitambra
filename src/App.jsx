@@ -3,7 +3,7 @@ import Footer from "./Component/Footer";
 import Header from "./Component/Header";
 import Home from "./Pages/Home";
 import MandirKaryakaram from "./Pages/MandirKaryakaram";
-import MandirPhoto from "./Pages/mandirPhoto";
+import MandirPhoto from "./Pages/MandirPhoto";
 import MandirSamiti from "./Pages/MandirSamiti";
 import Aarti from "./Pages/Aarti";
 import Contact from "./Pages/Contact";
