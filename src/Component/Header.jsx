@@ -57,7 +57,7 @@ function Header() {
     );
   };
   return (
-    <div className="Header font-serif text-white text-opacity-100  flex justify-center gap-40  items-center h-20 bg-[#FF9A14]  shadow-2xl ">
+    <div className="Header font-serif text-white text-opacity-100  flex justify-center gap-28  items-center h-20 bg-[#FF9A14]  shadow-2xl ">
       {/* Hamburger for phone and tab view */}
       <div className="Hamburger">
         <button
