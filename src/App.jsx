@@ -8,12 +8,15 @@ import MandirSamiti from "./Pages/MandirSamiti";
 import Aarti from "./Pages/Aarti";
 import Contact from "./Pages/Contact";
 import Index from "./Pages/E-Puja";
+import Login from "./Pages/E-Puja/Login";
+import Register from "./Pages/E-Puja/Register";
+import MyCart from "./Pages/E-Puja/MyCart";
 import viteLogo from "/vite.svg";
 import { Route, Routes } from "react-router-dom";
 
 function App() {
   return (
-    <div className="text-justify">
+    <div className="text-justify overflow-x-hidden font-[poppins]">
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -23,7 +26,11 @@ function App() {
         <Route path="/aarti" element={<Aarti />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/index" element={<Index />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/my-cart" element={<MyCart />} />
+        <Route path="/register" element={<Register />} />
       </Routes>
+
       <Footer />
     </div>
   );
