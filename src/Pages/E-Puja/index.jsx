@@ -173,7 +173,7 @@ function Index() {
           Remedy Pujas/ Dosha Pujas
         </h1>
       </div>
-      <div className="button lg:flex  justify-around items-center  mt-10 mx-16">
+      <div className="button lg:flex  justify-around items-center  mt-10 mx-10">
         <button className="px-4 py-2 shadow-lg lg:w-96 w-[80vw] bg-orange-400 rounded-md transform hover:scale-105 transition duration-300 ease-in-out mt-4">
           Gods & Goddesses
         </button>
