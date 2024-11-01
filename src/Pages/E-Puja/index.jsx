@@ -136,11 +136,11 @@ function Index() {
     <div className="E-puja ">
       <div className="LogIn-Resister flex justify-around items-center h-14 bg-orange-400 w-screen">
         <div className="email-phone  gap-14  lg:flex hidden">
-          <div className="phone flex">
+          <div className="phone flex gap-2">
             <Phone />
-            <Link to="#">905678....</Link>
+            <Link to="#">Tel:+91 9810258654, 9868079570, 9311372570</Link>
           </div>
-          <div className="email flex">
+          <div className="email flex gap-2">
             <Mail />
             <Link to="#">@aka...@gmail.com</Link>
           </div>
