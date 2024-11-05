@@ -2,7 +2,7 @@ import React from "react";
 import ButtonWrapper from "../../Component/Button";
 import { Link, useNavigate } from "react-router-dom";
 import { ArrowRight, IndianRupee, Mail, MessageCircleMore, Phone } from "lucide-react";
-import { Demo1, Demo2, Demo3 } from "../../utility/E-PujaImages";
+import { Demo1, Demo2, Demo3, Ganesh, Bhagwan1, Radhe, Ram, Matarani } from "../../utility/E-PujaImages";
 
 function Index() {
   const ProductCard = ({ Photo, Name, About, Price, onClick }) => {
@@ -66,7 +66,7 @@ function Index() {
           onClick={() => navigate("#")}
         />
         <ProductCard
-          Photo={Demo1}
+          Photo={Matarani}
           Name={"Maa Bangla Mukhi Puja"}
           About={"Puja For Knowledge/Education"}
           Price={"1151"}
@@ -80,14 +80,14 @@ function Index() {
           onClick={() => navigate("#")}
         />
         <ProductCard
-          Photo={Demo3}
+          Photo={Ganesh}
           Name={"Ganesh Puja"}
           About={"Puja For Knowledge/Education"}
           Price={"1151"}
           onClick={() => navigate("#")}
         />
         <ProductCard
-          Photo={Demo2}
+          Photo={Matarani}
           Name={"Mata rani Puja"}
           About={"Puja For Knowledge/Education"}
           Price={"1151"}
