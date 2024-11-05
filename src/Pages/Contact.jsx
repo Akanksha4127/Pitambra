@@ -61,7 +61,7 @@ function Contact() {
             Passion={"मातृ उपासक, दैवज्ञ एवं साधक"}
           />
           <PujariCard
-            Photo={Pujari1}
+            Photo={Pujari2}
             Heading={"महंत रोहित शर्मा"}
             Name={`श्री पीतांबरा सूर्य नारायण मन्दिर`}
             Passion={"राष्ट्रीय महासचिव अखिल भारतीय मंदिर परिषद"}

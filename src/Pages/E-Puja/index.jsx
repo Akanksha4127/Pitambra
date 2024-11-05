@@ -1,7 +1,7 @@
 import React from "react";
 import ButtonWrapper from "../../Component/Button";
 import { Link, useNavigate } from "react-router-dom";
-import { ArrowRight, IndianRupee, Mail, Phone } from "lucide-react";
+import { ArrowRight, IndianRupee, Mail, MessageCircleMore, Phone } from "lucide-react";
 import { Demo1, Demo2, Demo3 } from "../../utility/E-PujaImages";
 
 function Index() {
@@ -20,23 +20,23 @@ function Index() {
         <h2 className="text-sm tracking-tighter font-semibold text-black">
           {About}
         </h2>
-        <div className="flex gap-2">
+        {/* <div className="flex gap-2">
           <IndianRupee />
           <p>{Price}</p>
-        </div>
+        </div> */}
         <div className="flex gap-2">
           <button
             onClick={onClick}
             className="bg-orange-400 rounded-sm flex justify-center items-center px-16 py-3 text-xs drop-shadow-2xl shadow-black w-fit text-white hover:scale-105 transition duration-200 ease-in-out"
           >
-            View
+            Book Now
           </button>
-          <button
+          <Link
             onClick={onClick}
             className="bg-yellow-400 rounded-sm flex justify-center items-center px-16 py-3 text-xs drop-shadow-2xl shadow-black w-fit text-white hover:scale-105 transition duration-200 ease-in-out"
           >
-            Book
-          </button>
+            <MessageCircleMore />
+          </Link>
         </div>
       </div>
     );
@@ -67,28 +67,28 @@ function Index() {
         />
         <ProductCard
           Photo={Demo1}
-          Name={"Koothanur Maha Saraswati Amman Temple"}
+          Name={"Maa Bangla Mukhi Puja"}
           About={"Puja For Knowledge/Education"}
           Price={"1151"}
           onClick={() => navigate("#")}
         />
         <ProductCard
           Photo={Demo2}
-          Name={"Sringeri Sharadamba Devi Saraswati Templ..."}
+          Name={"Rudra Abhishekh"}
           About={"Puja For Knowledge/Education"}
           Price={"1151"}
           onClick={() => navigate("#")}
         />
         <ProductCard
           Photo={Demo3}
-          Name={"Sringeri Vidyashankara Shiva Temple Srin..."}
+          Name={"Ganesh Puja"}
           About={"Puja For Knowledge/Education"}
           Price={"1151"}
           onClick={() => navigate("#")}
         />
         <ProductCard
           Photo={Demo2}
-          Name={"Sringeri Sharadamba Devi Saraswati Templ..."}
+          Name={"Mata rani Puja"}
           About={"Puja For Knowledge/Education"}
           Price={"1151"}
           onClick={() => navigate("#")}

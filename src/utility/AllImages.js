@@ -7,6 +7,12 @@ import nirman1 from "../assets/MandirKiPhoto/Nirman1.jpg";
 import nirman2 from "../assets/MandirKiPhoto/Nirman2.jpg";
 import nirman3 from "../assets/MandirKiPhoto/Nirman3.mp4";
 import nirman4 from "../assets/MandirKiPhoto/Nirman4.jpg";
+import nirman5 from "../assets/MandirKiPhoto/Nirman5.jpg";
+import nirman6 from "../assets/MandirKiPhoto/Nirman6.jpg";
+
+import nirman8 from "../assets/MandirKiPhoto/Nirman8.jpg";
+
+import nirman10 from "../assets/MandirKiPhoto/Nirman10.jpg";
 import mandirkaryakarambanner from "../assets/MandirKaryakaram/MandirKaryakarambanner.jpg";
 import karyakaram1 from "../assets/MandirKaryakaram/Karyakaram1.jpg"
 import karyakaram2 from "../assets/MandirKaryakaram/Karyakaram2.jpg";
@@ -19,7 +25,7 @@ import suryajiarti from "../assets/Aarti/SuryajiArti.jpg";
 import vshnuarti from "../assets/Aarti/VshnuArti.jpg";
 import contactbanner from "../assets/Contact/ContactBanner.jpg";
 import pujari1 from "../assets/Contact/Pujari1.jpg";
-import pujari2 from "../assets/Contact/pujari2.jpg";
+import pujari2 from "../assets/Contact/Rohit.jpg";
 
 
 import samiti from "../assets/samiti/Samitibanner.jpg";
@@ -33,6 +39,10 @@ export const Nirman1 = nirman1
 export const Nirman2 = nirman2
 export const Nirman3 = nirman3
 export const Nirman4 = nirman4
+export const Nirman5 = nirman5;
+export const Nirman6 = nirman6;
+export const Nirman8 = nirman8;
+export const Nirman10 = nirman10;
 
 
 export const MandirKaryaKarambanner = mandirkaryakarambanner
