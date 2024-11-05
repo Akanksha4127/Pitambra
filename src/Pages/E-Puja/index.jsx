@@ -2,7 +2,7 @@ import React from "react";
 import ButtonWrapper from "../../Component/Button";
 import { Link, useNavigate } from "react-router-dom";
 import { ArrowRight, IndianRupee, Mail, MessageCircleMore, Phone } from "lucide-react";
-import { Demo1, Demo2, Demo3, Ganesh, Bhagwan1, Radhe, Ram, Matarani } from "../../utility/E-PujaImages";
+import { Demo1, Demo2, Demo3, Ganesh, Bhagwan1, Radhe, Ram, Matarani, Shiv, Hanuman } from "../../utility/E-PujaImages";
 
 function Index() {
   const ProductCard = ({ Photo, Name, About, Price, onClick }) => {
@@ -11,7 +11,7 @@ function Index() {
         <section className="">
           <img
             src={Photo}
-            className="w-72 h-60 hover:scale-105 transition duration-200 ease-in-out mx-3"
+            className="w-72 h-96 hover:scale-105 transition duration-200 ease-in-out mx-3"
           />
         </section>
         <h1 className="text-md tracking-tighter font-bold text-black">
@@ -67,14 +67,14 @@ function Index() {
         />
         <ProductCard
           Photo={Matarani}
-          Name={"Maa Bangla Mukhi Puja"}
+          Name={"Maa Bangla Mukhi Paath"}
           About={"Puja For Knowledge/Education"}
           Price={"1151"}
           onClick={() => navigate("#")}
         />
         <ProductCard
-          Photo={Demo2}
-          Name={"Rudra Abhishekh"}
+          Photo={Shiv}
+          Name={"Maha Rudra Abhishekh"}
           About={"Puja For Knowledge/Education"}
           Price={"1151"}
           onClick={() => navigate("#")}
@@ -87,15 +87,15 @@ function Index() {
           onClick={() => navigate("#")}
         />
         <ProductCard
-          Photo={Matarani}
-          Name={"Mata rani Puja"}
+          Photo={Hanuman}
+          Name={"Hanuman Ji ki Vishesh Pujan"}
           About={"Puja For Knowledge/Education"}
           Price={"1151"}
           onClick={() => navigate("#")}
         />
         <ProductCard
-          Photo={Demo3}
-          Name={"Sringeri Vidyashankara Shiva Temple Srin..."}
+          Photo={Ram}
+          Name={"Shri Ramchandra ji ki Vishesh Pujan"}
           About={"Puja For Knowledge/Education"}
           Price={"1151"}
           onClick={() => navigate("#")}

@@ -6,6 +6,8 @@ import radhe from "../assets/E-puja/Radhe.jpg";
 import ram from "../assets/E-puja/Ram.jpg";
 import matarani from "../assets/E-puja/Matarani.jpg";
 import bhagwan1 from "../assets/E-puja/Bhagwan1.jpg";
+import shiv from "../assets/E-puja/Shiv.jpg";
+import hanuman from "../assets/E-puja/Hanuman.jpg";
 
 export const Demo1 = demo1
 export const Demo2 = demo2;
@@ -15,3 +17,5 @@ export const Matarani = matarani;
 export const Bhagwan1 = bhagwan1;
 export const Ram = ram;
 export const Radhe = radhe;
+export const Hanuman = hanuman;
+export const Shiv = shiv;

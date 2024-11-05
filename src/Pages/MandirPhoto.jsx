@@ -106,37 +106,37 @@ function MandirPhoto() {
           <img
             src={Nirman1}
             alt=""
-            className="hover:w-[30vw] hover:h-[40vh] lg:h-[35vh] lg:w-[20vw] transition duration-500 ease-in-out filter hover:brightness-150 backdrop-brightness-50"
+            className=" lg:h-[35vh] lg:w-[20vw] transition duration-500 ease-in-out filter hover:brightness-150 backdrop-brightness-50"
           />
           <img
             src={Nirman2}
             alt=""
-            className="hover:w-[30vw] hover:h-[40vh] lg:h-[35vh] lg:w-[20vw] transition duration-500 ease-in-out filter hover:brightness-150 backdrop-brightness-50"
+            className=" lg:h-[35vh] lg:w-[20vw] transition duration-500 ease-in-out filter hover:brightness-150 backdrop-brightness-50"
           />
           <img
             src={Nirman4}
             alt=""
-            className="hover:w-[30vw] hover:h-[40vh] lg:h-[35vh] lg:w-[20vw] transition duration-500 ease-in-out filter hover:brightness-150 backdrop-brightness-50"
+            className=" lg:h-[35vh] lg:w-[20vw] transition duration-500 ease-in-out filter hover:brightness-150 backdrop-brightness-50"
           />
           <img
             src={Nirman5}
             alt=""
-            className="hover:w-[30vw] hover:h-[40vh] lg:h-[35vh] lg:w-[20vw] transition duration-500 ease-in-out filter hover:brightness-150 backdrop-brightness-50"
+            className=" lg:h-[35vh] lg:w-[20vw] transition duration-500 ease-in-out filter hover:brightness-150 backdrop-brightness-50"
           />
           <img
             src={Nirman6}
             alt=""
-            className="hover:w-[30vw] hover:h-[40vh] lg:h-[35vh] lg:w-[20vw] transition duration-500 ease-in-out filter hover:brightness-150 backdrop-brightness-50"
+            className=" lg:h-[35vh] lg:w-[20vw] transition duration-500 ease-in-out filter hover:brightness-150 backdrop-brightness-50"
           />
           <img
             src={Nirman8}
             alt=""
-            className="hover:w-[30vw] hover:h-[40vh] lg:h-[35vh] lg:w-[20vw] transition duration-500 ease-in-out filter hover:brightness-150 backdrop-brightness-50"
+            className=" lg:h-[35vh] lg:w-[20vw] transition duration-500 ease-in-out filter hover:brightness-150 backdrop-brightness-50"
           />
           <img
             src={Nirman10}
             alt=""
-            className="hover:w-[30vw] hover:h-[40vh] lg:h-[35vh] lg:w-[20vw] transition duration-500 ease-in-out filter hover:brightness-150 backdrop-brightness-50"
+            className=" lg:h-[35vh] lg:w-[20vw] transition duration-500 ease-in-out filter hover:brightness-150 backdrop-brightness-50"
           />
         </div>
       </section>
