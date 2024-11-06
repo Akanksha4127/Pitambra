@@ -44,7 +44,7 @@ function Index() {
   const ProductConstant = ()=> {
     return (
       <div className="cards flex flex-wrap    lg:flex justify-center items-center pb-10">
-        <ProductCard
+        {/* <ProductCard
           Photo={Demo1}
           Name={"Koothanur Maha Saraswati Amman Temple"}
           About={"Puja For Knowledge/Education"}
@@ -64,7 +64,7 @@ function Index() {
           About={"Puja For Knowledge/Education"}
           Price={"1151"}
           onClick={() => navigate("#")}
-        />
+        /> */}
         <ProductCard
           Photo={Matarani}
           Name={"Maa Bangla Mukhi Paath"}
@@ -100,7 +100,7 @@ function Index() {
           Price={"1151"}
           onClick={() => navigate("#")}
         />
-        <ProductCard
+        {/* <ProductCard
           Photo={Demo2}
           Name={"Sringeri Sharadamba Devi Saraswati Templ..."}
           About={"Puja For Knowledge/Education"}
@@ -120,14 +120,14 @@ function Index() {
           About={"Puja For Knowledge/Education"}
           Price={"1151"}
           onClick={() => navigate("#")}
-        />
-        <ProductCard
+        /> */}
+        {/* <ProductCard
           Photo={Demo3}
           Name={"Sringeri Vidyashankara Shiva Temple Srin..."}
           About={"Puja For Knowledge/Education"}
           Price={"1151"}
           onClick={() => navigate("#")}
-        />
+        /> */}
       </div>
     );
   }
