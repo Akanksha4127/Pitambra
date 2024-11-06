@@ -221,7 +221,7 @@ function Contact() {
           <div className="submit-btn flex justify-center m-10">
             <button
               onClick={handleSubmit}
-              className=" bg-orange-500 text-white py-2 px-7 rounded-lg drop-shadow-xl hover:drop-shadow-2xl hover:bg-zinc-700 transition duration-300 hover:scale-105 "
+              className=" bg-orange-500 text-white py-2 px-7 rounded-lg drop-shadow-xl hover:drop-shadow-2xl hover:bg-orange-700 transition duration-300 hover:scale-105 "
             >
               Submit
             </button>
